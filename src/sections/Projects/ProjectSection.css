@@ -1,0 +1,40 @@
+.conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: -30px;
+}
+
+.projectImg {
+  max-height: 220px;
+  max-width: 250px;
+  align-self: center;
+  background-color: var(--project-card-bg);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+a {
+  width: fit-content;
+  text-decoration: none;
+  color: #222;
+  text-align: center;
+  transition: transform 200ms ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+}
+
+h3 {
+  margin-bottom: -10px;
+}

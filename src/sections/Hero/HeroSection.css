@@ -13,8 +13,9 @@
   align-items: center;
 }
 
-img {
-  height: 450px;
+.img {
+  max-height: 450px;
+  max-width: 450px;
 }
 
 h1 {
