@@ -6,7 +6,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 function Hero() {
   return (
     <div>
-      <div className="container">
+      <div className="herocontainer">
         <div className="info">
           <h1>
             Kunal <br /> Paul

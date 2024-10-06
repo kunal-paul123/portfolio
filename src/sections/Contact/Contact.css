@@ -1,0 +1,72 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contacttitle {
+  margin-top: -10px;
+  margin-bottom: 60px;
+}
+
+input {
+  width: 40rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+
+textarea {
+  height: 10rem;
+  width: 39.5rem;
+  border-radius: 17px;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  resize: none;
+}
+
+.submitBtn {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  margin: auto;
+}
+
+.submitBtn:hover {
+  transform: scale(1.05);
+}
+
+@media (width <= 930px) {
+  .contacttitle {
+    margin-top: -80px;
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 20rem;
+  }
+
+  textarea {
+    width: 19.5rem;
+  }
+}

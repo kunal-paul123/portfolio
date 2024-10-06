@@ -1,0 +1,10 @@
+.footer {
+  text-align: center;
+  margin-top: -80px;
+
+  p {
+    font-size: 17px;
+    color: var(--footer-text-color);
+    line-height: 25px;
+  }
+}

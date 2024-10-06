@@ -4,9 +4,9 @@ import "./Projectsection.css";
 function Projects() {
   return (
     <div>
-      <h1 className="title">projects</h1>
-      <div className="container">
-        <div className="projectsContainer">
+      <h1 className="projecttitle">projects</h1>
+      <div>
+        <div className="projectcontainer">
           <ProjectCard
             src={"./images/wanderlust.jpg"}
             link="https://github.com/kunal-paul123/wanderlust"

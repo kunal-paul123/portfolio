@@ -1,4 +1,4 @@
-.container {
+.herocontainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +14,8 @@
 }
 
 .img {
-  max-height: 450px;
-  max-width: 450px;
+  height: 450px;
+  width: 450px;
 }
 
 h1 {
@@ -46,6 +46,10 @@ span a {
   color: #222;
 }
 
+.icons {
+  gap: 25px;
+}
+
 button {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
@@ -62,4 +66,32 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+@media (width <= 930px) {
+  .herocontainer {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+
+  .img {
+    height: 200px;
+    width: 250px;
+  }
+
+  img {
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
